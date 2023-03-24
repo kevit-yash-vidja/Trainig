@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  box-shadow: 3px 4px 5px rgb(87, 81, 81);
+  background-color: rgb(115, 106, 106);
+}
+
+#container {
+  border: 2px solid rgb(13, 13, 13);
+  width: 417px;
+  border-radius: 2%;
+  display: block;
+  overflow: hidden;
+  height: 500px;
+  box-shadow: 5px 12px rgb(79, 83, 80);
+}
+#card-image img {
+  display: block;
+}
+#card-text {
+  background-color: rgb(251, 251, 250);
+  width: 417px;
+  height: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#card-footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: darkgoldenrod;
+  width: 417px;
+  height: 40px;
+  padding-top: 15px;
+}
+
+#i3:hover {
+  background-color: rgb(72, 163, 163);
+}
+#i2:hover {
+  background-color: rgb(69, 60, 64);
+}

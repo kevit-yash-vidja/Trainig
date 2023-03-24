@@ -1,0 +1,30 @@
+.table {
+  background-color: #49a09d;
+  width: 50%;
+  height: 100vh;
+  border: 1px solid white;
+  border-spacing: 0px;
+}
+th, td{
+  color: white;
+  font-size: 40px;
+  border-bottom: 0.1px solid white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 40px;
+}
+th {
+  background-color: #55608f;
+  padding: 20px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+body {
+  background-color: #49a09d;
+}
+.row:hover{
+    background-color: #55608f;
+}

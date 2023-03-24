@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="form" class="form" onreset="">
+      <h2 id="text">Update Data</h2>
+      <label for="fName">First Name</label><br />
+      <input
+        type="text"
+        id="fname"
+        class="name"
+        
+      />
+      <br />
+      <label for="lName">Last Name</label><br />
+      <input
+        type="text"
+        id="lname"
+        class="name"
+        
+      />
+      <br />
+      <label for="email" id="email2">Email</label><br id="br"/>
+      <input
+        type="text"
+        id="email"
+        class="name"
+        
+      />
+      <br id="br1" />
+      <label for="picture"id="pic">Avatar</label> <br />
+      <input
+        type="url"
+        id="picture"
+        class="name"
+       
+      />
+      <br /><br />
+      <input type="submit" id="submit" />
+    </div>
+    
+    <div class="addbtn">
+        <input type="submit" value="Add User" name="addbtn" id="addbtn" />
+      </div>
+  <div id="closebutton" class="cbtn">
+    <img src="/image/close.png" id="closebtn" />
+  </div>
+    
+    <div id="blur" class="blur">
+        <h1>Userdetails</h1> </div>
+        
+      <div id="container">
+        <table class="table" id="table">
+          <thead class="tdata" id="thaed">
+            <tr>
+              <th>Avatar</th>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Actions</th>
+              <th>Edit</th>
+            </tr>
+          </thead>
+          <tbody class="tdata" id="userdata"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/javascript/first.js"></script>
+  </body>
+</html>
